@@ -1,0 +1,90 @@
+body {
+    background-image: url("images/back.jpg");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+main {
+    max-width: 610px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+}
+
+.win {
+    color: white;
+    background-color: green;
+}
+
+.loss {
+    color: white;
+    background-color: rgb(89, 14, 14);
+}
+
+#word {
+    letter-spacing: 10px;
+    text-align: center;
+    font-size: 24pt;
+    color: rgb(242, 248, 247);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+}
+
+#guesses {
+    text-align: center;
+    font-size: 16pt;
+    color: rgb(201, 14, 14);
+    font-weight: bold;
+    font-family: "Courier New", Courier, monospace
+}
+
+.guess {
+    padding: 10px;
+    display: inline-block;
+    border: 2px solid rgb(123, 130, 136);
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+#guessBox {
+    height: 50px;
+    border-radius: 5px;
+    padding-top: 5px;
+    font-size: 18pt;
+    width: 200px;
+    padding-left: 10px;
+}
+
+.button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: rgb(255, 255, 255);
+    background-color: rgb(197, 16, 116);
+    border: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: rgb(55, 169, 107)
+}
+
+.button:active {
+    background-color: rgb(224, 224, 139);
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+img {
+    padding-left: 70px;
+
+}

@@ -1,0 +1,8 @@
+#results {
+    display:none;
+}
+body {
+  background-image: url(money.jpg);
+  font-family: 'Courier New', monospace;
+  padding-top: 14%;
+}
